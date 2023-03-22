@@ -6,6 +6,13 @@ using namespace std;
 
 void init(GLFWwindow* window) {}
 
+
+float vertices[] = {
+	-0.5f, -0.5f, 0.0f,
+	 0.5f, -0.5f, 0.0f,
+	 0.0f,  0.5f, 0.0f
+};
+
 void display(GLFWwindow*window,double currentTime){
 	glClearColor(1.0, 0.0, 0.0, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT);
