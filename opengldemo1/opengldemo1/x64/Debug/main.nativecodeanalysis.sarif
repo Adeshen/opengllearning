@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/susystudy/grade3-2/现代图形学入门/opengltest/opengldemo1/opengldemo1/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9cfb6d69a8dd0fa284752fb235ba4576ed0dd313b58985bb66ac8ab15fff9bde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/susystudy/grade3-2/现代图形学入门/opengltest/opengldemo1/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "0992a30f01ebaa41c32f3f0588e942961abb8a9a52ca8764bd32ee4d7d71a46d"
+          }
+        }
+      ]
+    }
+  ]
+}
